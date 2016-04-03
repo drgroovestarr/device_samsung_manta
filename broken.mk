@@ -21,6 +21,10 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 10
 PRODUCT_MANUFACTURER := samsung
 
+# Broken Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+	DEVICE_MAINTAINERS="Jarrod Worlitz (drgroovestarr)"
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=mantaray \
     BUILD_FINGERPRINT=google/mantaray/manta:5.1.1/LMY47V/1836172:user/release-keys \
