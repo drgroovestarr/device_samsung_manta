@@ -1,9 +1,9 @@
 [
   {
      "remote": "github",
-     "repository":  "CyanogenMod/android_kernel_samsung_manta",
+     "repository":  "drgroovestarr/kernel_samsung_manta",
      "target_path": "kernel/samsung/manta",
-     "branch":      "cm-13.0"
+     "branch":      "m6.0.1"
   },
   {
     "remote": "github",
