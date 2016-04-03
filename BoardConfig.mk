@@ -111,3 +111,6 @@ BOARD_SEPOLICY_DIRS += \
 MALLOC_IMPL := dlmalloc
 
 BOARD_INV_LIBMLLITE_FROM_SOURCE := true
+
+#Optimizations
+STRICT := true
