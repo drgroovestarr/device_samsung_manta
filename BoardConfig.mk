@@ -36,6 +36,8 @@ TARGET_CPU_VARIANT := cortex-a15
 TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 
 # Define kernel config for inline building
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-cortex-a15/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 TARGET_KERNEL_CONFIG := khaon_manta_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/manta
 
