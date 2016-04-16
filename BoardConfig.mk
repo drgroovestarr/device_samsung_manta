@@ -38,7 +38,7 @@ TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
 # Define kernel config for inline building
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/linaro-arm-eabi-4.8/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-TARGET_KERNEL_CONFIG := broken_manta_defconfig
+TARGET_KERNEL_CONFIG := khaon_manta_defconfig
 TARGET_KERNEL_SOURCE := kernel/samsung/manta
 
 #Bluetooth
