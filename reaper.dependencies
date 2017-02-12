@@ -1,0 +1,42 @@
+[
+  {
+     "remote": "github",
+     "repository":  "LineageOS/android_kernel_samsung_manta",
+     "target_path": "kernel/samsung/manta",
+     "branch":      "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository":  "TheMuppets/proprietary_vendor_samsung",
+    "target_path": "vendor/samsung",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository":  "TheMuppets/proprietary_vendor_broadcom",
+    "target_path": "vendor/broadcom",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository":  "TheMuppets/proprietary_vendor_audience",
+    "target_path": "vendor/audience",
+    "branch":      "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository":  "AICP/proprietary_vendor_widevine",
+    "target_path": "vendor/widevine",
+    "branch":      "mm6.0"
+  },
+  {
+   "repository":  "LineageOS/android_external_stlport",
+   "target_path": "external/stlport",
+   "branch":      "cm-14.1"
+  },
+  {
+   "repository":  "LineageOS/android_hardware_samsung_slsi_exynos5",
+   "target_path": "hardware/samsung_slsi/exynos5",
+   "branch":      "cm-14.1"
+  }
+]
